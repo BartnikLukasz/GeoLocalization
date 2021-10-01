@@ -1,5 +1,6 @@
 package bartnik.localization.GeoLocalization.services;
 
+import bartnik.localization.GeoLocalization.domain.LocalizationEntity;
 import bartnik.localization.GeoLocalization.dto.LocalizationRequestDto;
 import bartnik.localization.GeoLocalization.mappers.LocalizationMapper;
 import bartnik.localization.GeoLocalization.repositories.LocalizationRepository;
