@@ -1,6 +1,6 @@
 package bartnik.localization.GeoLocalization.dto;
 
-import lombok.Data;
+import lombok.*;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
@@ -8,7 +8,10 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 
-@Data
+@AllArgsConstructor
+@Getter
+@Setter
+@Builder
 public class LocalizationRequestDto {
 
     @NotBlank
