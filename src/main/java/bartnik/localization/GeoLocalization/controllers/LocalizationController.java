@@ -14,7 +14,7 @@ import javax.validation.Valid;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api")
-public class LocalizationController {
+class LocalizationController {
 
     private final LocalizationService localizationService;
 

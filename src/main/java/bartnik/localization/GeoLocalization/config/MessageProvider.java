@@ -13,7 +13,7 @@ import java.util.Map;
 @Component
 @PropertySource("classpath:messages.properties")
 @ConfigurationProperties(prefix = "message")
-public class MessageProvider {
+class MessageProvider {
 
     private Map<String, String> error;
 }
